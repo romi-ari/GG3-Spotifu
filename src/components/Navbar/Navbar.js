@@ -9,7 +9,7 @@ function Navbar() {
       {/*Top Nav */}
       <div className="fixed top-0 left-0 w-96 mx-2 mt-2 rounded-lg border-2 border-gray-700 bg-[#121212]">
           <div className="flex flex-col justify-start w-auto">
-              <Link to="/" className="flex items-center justify-start gap-3 pl-3 rounded-lg h-12 text-m w-auto hover:bg-gray-700">
+              <Link to="/home" className="flex items-center justify-start gap-3 pl-3 rounded-lg h-12 text-m w-auto hover:bg-gray-700">
                 <i className="fa-solid fa-house" style={{color: "#ffffff"}}></i>
                 <span className="text-white">Home</span>
               </Link>
